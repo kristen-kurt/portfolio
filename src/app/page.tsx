@@ -1,9 +1,4 @@
 import './globals.css'
-import type { AppProps } from 'next/app'
-
-// export default function App({ Component, pageProps }: AppProps) {
-//   return <Component {...pageProps} />
-// }
 
 // pages/index.tsx
 import Head from 'next/head'
@@ -78,7 +73,7 @@ export default function Home() {
               />
             </div>
             <h1 className="text-4xl font-bold mb-4">Web Artisan - Full Stack Developer</h1>
-            <p className="text-xl mb-8">Specialized backend with laravel for 4 years.Enjoy working frontend using React.js . That's how a became a fullstack.</p>
+            <p className="text-xl mb-8">Specialized backend with laravel for 4 years.Enjoy working frontend using React.js . That&apos;s how a became a fullstack.</p>
             <div className="flex justify-center space-x-4">
               <Link 
                 href="https://github.com/kristen-kurt" 
